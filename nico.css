@@ -1,0 +1,31 @@
+header{
+    grid-template-areas: h;
+}
+nav{
+    background-color: green;
+    grid-template-areas: n;
+}
+aside{
+    grid-template-areas: as;
+}
+article{
+    grid-template-areas: ar;
+}
+footer{
+    grid-template-areas: f;
+}
+img{
+    width: 100%;
+}
+.cointainer1{
+    grid-template-areas: c1;
+}
+.cointainer2{
+    grid-template-areas: c2;
+}
+body{
+    background-color: rgb(236, 236, 171);
+}
+main{
+    background-color: white;
+}
