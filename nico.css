@@ -3,6 +3,9 @@ header{
     grid-area: h;
     text-align: left;
 }
+h2{
+    color: green;
+}
 nav{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
