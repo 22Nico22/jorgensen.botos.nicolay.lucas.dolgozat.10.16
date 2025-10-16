@@ -1,31 +1,57 @@
 header{
-    grid-template-areas: h;
+    color: green;
+    grid-area: h;
+    text-align: left;
 }
 nav{
     background-color: green;
-    grid-template-areas: n;
+    grid-area: n;
+    margin: 5px;
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(166, 255, 166);
+    gap: 5px;
 }
 aside{
-    grid-template-areas: as;
+    grid-area: as;
 }
 article{
-    grid-template-areas: ar;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-area: ar;
+    grid-template-areas: 
+    "c1 c2";
 }
 footer{
-    grid-template-areas: f;
+    grid-area: f;
+    color: green;
+    text-align: center;
 }
 img{
     width: 100%;
+    margin: 1px;
+    border-color: gainsboro;
 }
 .cointainer1{
-    grid-template-areas: c1;
+    grid-area: c1;
 }
 .cointainer2{
-    grid-template-areas: c2;
+    grid-area: c2;
 }
 body{
     background-color: rgb(236, 236, 171);
+    padding: 20px;
+    padding-top: 0px;
 }
 main{
     background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "h h h"
+    "n n n"
+    "as ar ar"
+    "f f f ";
 }
