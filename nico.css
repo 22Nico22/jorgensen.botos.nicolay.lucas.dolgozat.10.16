@@ -48,7 +48,6 @@ img{
     grid-area: c1;
 }
 .container2{
-    padding: 10px;
     text-align: justify;
     margin:5px;
     grid-area: c2;
