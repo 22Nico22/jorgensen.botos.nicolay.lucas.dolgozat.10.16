@@ -37,17 +37,20 @@ footer{
     text-align: center;
 }
 img{
+    border: 3px solid gainsboro;
     width: 100%;
     margin: 3px;
     border-color: gainsboro;
 }
 .container1{
+    border: 2px solid gainsboro;
     padding: 10px;
     text-align: justify;
     margin: 5px;
     grid-area: c1;
 }
 .container2{
+    border: 2px solid gainsboro;
     text-align: justify;
     margin:5px;
     grid-area: c2;
